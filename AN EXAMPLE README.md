@@ -163,6 +163,20 @@ orders:
 - The ERD screenshot from Supabase looks like this: 
 <img width="1064" height="577" alt="image" src="https://github.com/user-attachments/assets/4b8a39b1-ff20-4bd3-be6f-f662b35ae49f" />
 
+- To test the table, I used two queries: 
+
+```sql
+SELECT * FROM orders
+WHERE name = "Nadine Gordimer"
+````
+
+```sql
+SELECT * FROM books
+WHERE in_stock = "TRUE"
+````
+
+- Here are the results of the queries:
+<img width="1460" height="791" alt="image" src="https://github.com/user-attachments/assets/37cf0a4e-ca92-4d8d-8888-2cca0165d32b" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
